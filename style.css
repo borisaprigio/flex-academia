@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* reset-css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+/* /reset-css */
+
+/* reset-body */
+
+body {
+    font-size: 100%;
+}
+
+/* /reset-body */
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px 0;
+}
+
+.logo-flex {
+    height: 78px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 13px;
+}
+
+.conteudo {
+    border-top: 5px solid #1B8800;
+}
+
+.conteudo-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(fundo1.svg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.cont-img-um {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 25px;
+    padding-left: 21px;
+}
+
+.conteudo-escrito {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 68px;
+    padding-right: 350px;
+}
+
+.cont-escrito-titulo {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 21px;
+}
+
+.cont-escrito-subtitulo {
+    font-weight: 700;
+    color: #33FF00;
+    font-size: 42px;
+}
+
+.cont-escrito-subtitulo-dois {
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.conteudo-secundario {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-top: 5px solid #1B8800;
+    width: 100%;
+    height: 301px;
+    background-image: url(fundo2.svg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.conteudo-escrito{
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.cont-sec-titulo{
+    padding-top: 85px;
+    padding-left: 450px;
+    display: flex;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 51px;
+}
+
+.cont-sec-subtitulo {
+    padding-left: 390px;
+    display: flex;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 51px;
+}
+
+.rodape {
+    font-family: 'Inter', sans-serif;
+}
+
+.rodape-main {
+    background-color: #1B8800;
+    height: 181px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.logo-rodape {
+    display: block;
+    width: 70%;
+    height: 78px;
+}
+
+.rodape-menu {
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.rodape-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    justify-content: flex-end;
+}
+
+.redes {
+    height: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.rodape-contato p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+}
+
+.rodape-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #125900;
+    height: 58px;
+    width: auto;
+}
+
+.rodape-sec p {
+    font-size: 11.5px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
